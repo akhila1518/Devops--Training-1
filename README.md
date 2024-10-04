@@ -13,8 +13,7 @@ graph TD;
     A --> D[.dockerignore]
     A --> E[README.md]
     B --> F[main.py]
-    B --> G[utils.py]
-
+    B --> G[utils.py
     B --> H[config/]
     H --> I[settings.py]
     B --> J[tests/]
