@@ -1,0 +1,83 @@
+[33mcommit 0fc672f7ce4b6120e0c3bb57d18982e72efe019c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Sun Oct 6 08:39:11 2024 +0000
+
+    Add diagram file
+
+[33mcommit 43b7738c8606a4880f4396984f48781798be6aaa[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:58:25 2024 +0000
+
+    Remove Mermaid2 file
+
+[33mcommit 4aec3764319e3aa690dbc240eab36d46e85c86a7[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:54:12 2024 +0000
+
+    Docker Architecture with Nginx
+
+[33mcommit eebbec9b0d7538607f20ecb32e683878aeaa7b2b[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:48:23 2024 +0000
+
+    Add Mermaid diagram for Docker file
+
+[33mcommit e11e3763c41444b09f7f2762460f232f3e9b5f89[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:34:46 2024 +0000
+
+    Fix Mermaid diagram for Python application
+
+[33mcommit 521a9ef9f31dfab920df380bb30525326b58d622[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:30:06 2024 +0000
+
+    Removed unnecessary Mermaid2 file
+
+[33mcommit b2d0a127d7239d43e9eff6392006cb21b11aff4f[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:16:53 2024 +0000
+
+    Separated Docker Nginx diagram and Docker Python application diagram in README
+
+[33mcommit 71fa9dcfbf78836f07551390cce1187e7569426c[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 13:14:38 2024 +0000
+
+    Separated Docker Nginx diagram and Docker Python application diagram in README
+
+[33mcommit 9fce5a63860d121fd1b8fc92f8a9aaf64d084fea[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 10:07:34 2024 +0000
+
+    Fix Mermaid diagram syntax by separating diagrams
+
+[33mcommit 78caeec912af0d2125c6f84e889f10197e6cbccf[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 10:03:53 2024 +0000
+
+    Fix Mermaid diagram syntax by separating diagrams
+
+[33mcommit 21c954e10ce1b2c5fd3b9eecf3b4254b311ca4b2[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 09:53:24 2024 +0000
+
+    Fix Mermaid diagram syntax by separating diagrams
+
+[33mcommit 788c1f9efb81dc6091696523d1f2cd1f05f695d0[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Fri Oct 4 09:44:48 2024 +0000
+
+    Update README.md with Mermaid diagrams for project structure and Nginx setup
+
+[33mcommit d5af8e69f9125cd21146f79a8fce082b8a1200c2[m
+Author: akhila1518 <nammiakhila1518@gmail.com>
+Date:   Thu Oct 3 07:10:19 2024 +0000
+
+    Add README with Mermaid diagram
+
+[33mcommit c8625106898f5b49b17210674af89f6992b667e3[m
+Author: Ubuntu <ubuntu@ip-172-31-89-65.ec2.internal>
+Date:   Wed Oct 2 10:50:10 2024 +0000
+
+    first commit

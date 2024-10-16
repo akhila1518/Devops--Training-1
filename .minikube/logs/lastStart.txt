@@ -1,0 +1,48 @@
+Log file created at: 2024/10/10 13:03:13
+Running on machine: ip-172-31-89-65
+Binary: Built with gc go1.22.5 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1010 13:03:13.331833    2217 out.go:345] Setting OutFile to fd 1 ...
+I1010 13:03:13.331911    2217 out.go:397] isatty.IsTerminal(1) = true
+I1010 13:03:13.331944    2217 out.go:358] Setting ErrFile to fd 2...
+I1010 13:03:13.331948    2217 out.go:397] isatty.IsTerminal(2) = true
+I1010 13:03:13.332144    2217 root.go:338] Updating PATH: /home/ubuntu/.minikube/bin
+I1010 13:03:13.332429    2217 out.go:352] Setting JSON to false
+I1010 13:03:13.332985    2217 start.go:129] hostinfo: {"hostname":"ip-172-31-89-65","uptime":1624,"bootTime":1728563769,"procs":115,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"24.04","kernelVersion":"6.8.0-1016-aws","kernelArch":"x86_64","virtualizationSystem":"xen","virtualizationRole":"guest","hostId":"ec2ca8f3-f2a2-5d56-3b4b-0c9528df3873"}
+I1010 13:03:13.333072    2217 start.go:139] virtualization: xen guest
+I1010 13:03:13.337830    2217 out.go:177] 😄  minikube v1.34.0 on Ubuntu 24.04 (xen/amd64)
+I1010 13:03:13.341253    2217 driver.go:394] Setting default libvirt URI to qemu:///system
+I1010 13:03:13.341270    2217 global.go:112] Querying for installed drivers using PATH=/home/ubuntu/.minikube/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+W1010 13:03:13.348206    2217 preload.go:293] Failed to list preload files: open /home/ubuntu/.minikube/cache/preloaded-tarball: no such file or directory
+I1010 13:03:13.348228    2217 notify.go:220] Checking for updates...
+I1010 13:03:13.390560    2217 global.go:133] kvm2 default: true priority: 8, state: {Installed:true Healthy:false Running:true NeedsImprovement:false Error:/usr/bin/virsh domcapabilities --virttype kvm failed:
+error: failed to get emulator capabilities
+error: invalid argument: the accel 'kvm' is not supported by '/usr/bin/qemu-system-x86_64' on this host
+exit status 1 Reason: Fix:Follow your Linux distribution instructions for configuring KVM Doc:https://minikube.sigs.k8s.io/docs/reference/drivers/kvm2/ Version:}
+I1010 13:03:13.390622    2217 global.go:133] qemu2 default: true priority: 7, state: {Installed:false Healthy:false Running:false NeedsImprovement:false Error:stat /usr/share/OVMF/OVMF_CODE.fd: no such file or directory Reason: Fix:Install uefi firmware Doc:https://minikube.sigs.k8s.io/docs/reference/drivers/qemu/ Version:}
+I1010 13:03:13.390672    2217 global.go:133] virtualbox default: true priority: 6, state: {Installed:false Healthy:false Running:false NeedsImprovement:false Error:unable to find VBoxManage in $PATH Reason: Fix:Install VirtualBox Doc:https://minikube.sigs.k8s.io/docs/reference/drivers/virtualbox/ Version:}
+I1010 13:03:13.390750    2217 global.go:133] vmware default: false priority: 5, state: {Installed:false Healthy:false Running:false NeedsImprovement:false Error:exec: "vmrun": executable file not found in $PATH Reason: Fix:Install vmrun Doc:https://minikube.sigs.k8s.io/docs/reference/drivers/vmware/ Version:}
+I1010 13:03:13.414044    2217 docker.go:123] docker version: linux-24.0.5:
+I1010 13:03:13.414122    2217 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I1010 13:03:13.437269    2217 info.go:266] docker info: {ID:61b39c26-4396-4978-a91e-975ca1e21d23 Containers:9 ContainersRunning:0 ContainersPaused:0 ContainersStopped:9 Images:19 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:23 OomKillDisable:false NGoroutines:39 SystemTime:2024-10-10 13:03:13.429052797 +0000 UTC LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-1016-aws OperatingSystem:Ubuntu Core 22 OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:1 MemTotal:1003929600 GenericResources:<nil> DockerRootDir:/var/snap/docker/common/var-lib-docker HTTPProxy: HTTPSProxy: NoProxy: Name:ip-172-31-89-65 Labels:[] ExperimentalBuild:false ServerVersion:24.0.5 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:3dce8eb055cbb6872793272b4f20ed16117344f8 Expected:3dce8eb055cbb6872793272b4f20ed16117344f8} RuncCommit:{ID: Expected:} InitCommit:{ID:de40ad0 Expected:de40ad0} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I1010 13:03:13.437343    2217 docker.go:318] overlay module found
+I1010 13:03:13.437355    2217 global.go:133] docker default: true priority: 9, state: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I1010 13:03:13.448120    2217 global.go:133] none default: false priority: 4, state: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I1010 13:03:13.448167    2217 global.go:133] podman default: true priority: 7, state: {Installed:false Healthy:false Running:false NeedsImprovement:false Error:exec: "podman": executable file not found in $PATH Reason: Fix:Install Podman Doc:https://minikube.sigs.k8s.io/docs/drivers/podman/ Version:}
+I1010 13:03:13.448180    2217 global.go:133] ssh default: false priority: 4, state: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I1010 13:03:13.448218    2217 driver.go:316] not recommending "none" due to default: false
+I1010 13:03:13.448221    2217 driver.go:316] not recommending "ssh" due to default: false
+I1010 13:03:13.448224    2217 driver.go:311] not recommending "kvm2" due to health: /usr/bin/virsh domcapabilities --virttype kvm failed:
+error: failed to get emulator capabilities
+error: invalid argument: the accel 'kvm' is not supported by '/usr/bin/qemu-system-x86_64' on this host
+exit status 1
+I1010 13:03:13.448239    2217 driver.go:351] Picked: docker
+I1010 13:03:13.448244    2217 driver.go:352] Alternatives: [none ssh]
+I1010 13:03:13.448249    2217 driver.go:353] Rejects: [kvm2 qemu2 virtualbox vmware podman]
+I1010 13:03:13.452036    2217 out.go:177] ✨  Automatically selected the docker driver. Other choices: none, ssh
+I1010 13:03:13.454534    2217 start.go:297] selected driver: docker
+I1010 13:03:13.454541    2217 start.go:901] validating driver "docker" against <nil>
+I1010 13:03:13.454549    2217 start.go:912] status for docker: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I1010 13:03:13.457733    2217 out.go:201] 
+W1010 13:03:13.460542    2217 out.go:270] ⛔  Exiting due to RSRC_INSUFFICIENT_CORES:  has less than 2 CPUs available, but Kubernetes requires at least 2 to be available
+I1010 13:03:13.463726    2217 out.go:201] 

@@ -1,0 +1,3 @@
+flask
+requests
+# Add any other dependencies your app needs
