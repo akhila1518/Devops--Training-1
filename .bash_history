@@ -447,3 +447,41 @@ ls
 git add README.md
 git commit -m "Updated README.md with project details"
 git push -u origin master
+ls
+git init
+git add .
+git commit -m "Initial commit: Setup Nginx reverse proxy with two backend servers"
+git push -u origin master
+docker-compose up -d
+ls
+cat Nginx-web-server
+cd Nginx-web-server
+ls
+nginx1
+cd nginx1
+ls
+cd ~
+cd nginx1
+ls
+cd ~
+cat nginx1
+cat index.html
+nano nginx1
+cat nginx1
+cd nginx1
+ls
+cd ~
+cd ~/path/to/your/nginx1
+ls
+cd nginx1
+cat index.html
+docker-compose up -d
+cd ~
+curl http://54.86.232.154/pageone
+curl http://54.86.232.154/pagetwo
+curl http://54.86.232.154/
+curl http://54.86.232.154/pageone
+docker ps
+docker-compose up -d
+sudo lsof -i :80
+sudo systemctl stop apache2
